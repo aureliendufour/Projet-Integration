@@ -1,3 +1,16 @@
+.container {
+    border-bottom: 1px solid grey;
+}
+
 .navbar .top-bar ul li {
   display: inline-block;
+  border-right: 1px solid grey;
+  padding: 10px 15px;
+  margin: 0px;
+}
+
+.navbar .top-bar .container ul {
+  padding: 0px;
+  margin: 0px;
+  border-left: 1px solid grey;
 }
