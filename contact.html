@@ -3,6 +3,7 @@
 <head>
 	<title>Contact</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="contact.css">
 </head>
 <body>
@@ -16,8 +17,7 @@
 				Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 			</div>
 
-			</br>
-			<div>
+			<div class="saut">
 				<div class="col-md-4">
 					<img src="images/icon-worldmap.png" />
 					</br>
@@ -46,13 +46,77 @@
 	</div>
 
 
-	<div class="col-md-6 col-md-offset-3">
-		<p>Feel Free to Drop Us a Line</p>
+	<div class="col-md-6 col-md-offset-3 saut">
+		<p class="sub-title">Feel Free to Drop Us a Line</p>
 		<p>Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo amet risus. Integer posuere erat a anta venenatis dapibus posuere velit aliquet. Maecenas faucibus.</p>
+	</div>
+
+	<div class="col-md-6 col-md-offset-3">
+
+		<div class="row saut">
+			<div class="col-md-6">
+				<div class="input-group">
+					<span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
+					<input type="text" class="form-control zone-grey" placeholder="Your name" aria-describedby="basic-addon1">
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="input-group">
+		  		<span class="input-group-addon" id="basic-addon2"><i class="fa fa-envelope"></i></span>
+		  		<input type="text" class="form-control zone-grey" placeholder="Your e-mail" aria-describedby="basic-addon1">
+				</div>
+			</div>
 		</div>
 
-</body>
+		<div class="row saut">
+			<div class="col-md-6">
+				<div class="input-group">
+		  		<span class="input-group-addon" id="basic-addon3"><i class="glyphicon glyphicon-earphone"></i></span>
+		  		<input type="text" class="form-control zone-grey" placeholder="Phone" aria-describedby="basic-addon1">
+				</div>
+			</div>
 
+			<div class="col-md-6">
+				<div class="input-group">
+					<span class="input-group-addon" id="basic-addon4"><i class="glyphicon glyphicon-ok"></i></span>
+					<input type="text" class="form-control zone-grey" placeholder="Select department">
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-default dropdown-toggle btn-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-down"></span></button>
+						<ul class="dropdown-menu dropdown-menu-right">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<textarea class="form-control zone-grey saut" rows="10" placeholder="Type your message here..."></textarea>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-6 col-md-offset-3">
+		<div class="row">
+			<div class="col-md-12 btn-radio-inline">
+				Subject:
+				<label class="radio-inline">
+		  		<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">General
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">Say Hi
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">Other
+				</label>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6 col-md-offset-3">
+		<button type="submit" class="btn btn-default btn-send">SEND</button>
+	</div>
+</body>
 <footer>
 </footer>
 </html>

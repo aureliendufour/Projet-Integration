@@ -1,1 +1,27 @@
+.sub-title{
+  font-size: 15px;
+  font-weight: bold;
+}
 
+.zone-grey{
+  background-color: rgb(204,204,204);
+}
+
+.btn-send{
+  margin-top: 20px;
+  background-color: rgb(153,0,0);
+  color:white;
+}
+
+.btn-dropdown{
+ background-color: rgb(153,0,0);
+ color: white;
+}
+
+.btn-radio-inline{
+  margin-top: 20px;
+}
+
+.saut{
+  margin-top: 20px;
+}
