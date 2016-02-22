@@ -1,0 +1,26 @@
+.erreur {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 150px 15px;
+
+}
+
+.erreur-404 {
+  font-weight : bold;
+  font-size: 100px;
+}
+
+.erreur-404-detail {
+  font-size: 20px;
+}
+
+.erreur-detail {
+  margin-top:15px;
+}
+
+.navbar .text{
+  background-color:grey;
+  color:white;
+  text-align: left;
+  text-align: justify;
+}
