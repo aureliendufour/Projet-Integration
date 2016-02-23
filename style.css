@@ -35,3 +35,17 @@
   width:200px;
   height:50px;
 }
+
+.slider {
+  max-width: 100%;
+	height: auto;
+  margin:auto;
+}
+
+.saut{
+  margin-top: 20px;
+}
+
+.fond{
+  background-color: rgb(192,192,192);
+}
