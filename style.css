@@ -98,3 +98,8 @@ border-top: 10px solid transparent;
 border-bottom: 10px solid transparent;
 border-left: 10px solid #FFF;
 }
+
+.presentation{
+  font-size: 9px;
+  text-align: center;
+}
