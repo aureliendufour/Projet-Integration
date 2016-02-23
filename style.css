@@ -3,23 +3,35 @@
     border-color: transparent;
 }
 
-.container {
+.navbar-default .top-bar{
     border-bottom: 1px solid grey;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
 }
 
-.navbar .top-bar ul li {
-  display: inline-block;
-  border-right: 1px solid grey;
-  padding: 10px 15px;
-  margin: 0px;
-  font-size: 17px;
-}
-
-.navbar .top-bar .container ul {
+.navbar-default .top-bar ul {
   padding: 0px;
   margin: 0px;
   border-left: 1px solid grey;
+}
+
+.navbar-default .top-bar  ul li {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 0px;
+  font-size: 17px;
+  border-right: 1px solid grey;
+}
+
+.navbar-default .navbar-right li{
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.navbar-default .navbar-left li{
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.logo {
+  width:200px;
+  height:50px;
 }
