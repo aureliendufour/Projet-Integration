@@ -49,3 +49,52 @@
 .fond{
   background-color: rgb(192,192,192);
 }
+
+
+blockquote{
+  border:0px;
+}
+
+q {
+  quotes: "“" "”";
+}
+q:before {
+    content: open-quote;
+    font-family: "fontello";
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+q:after {
+    content: none;
+}
+
+.commentaire{
+  background-color: rgb(255,255,255);
+}
+
+.triangle-before:before{
+content:'';
+display: block;
+position: absolute;
+top:20px;
+left:103px;
+width:0px;
+height:0px;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+border-right: 10px solid #FFF;
+}
+
+.triangle-after:after{
+content:'';
+display: block;
+position: absolute;
+top:20px;
+right:103px;
+width:0px;
+height:0px;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+border-left: 10px solid #FFF;
+}
