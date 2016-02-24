@@ -43,13 +43,8 @@
 }
 
 .saut{
-  margin-top: 20px;
+  margin-top: 26px;
 }
-
-.fond{
-  background-color: rgb(192,192,192);
-}
-
 
 blockquote{
   border:0px;
@@ -102,4 +97,47 @@ border-left: 10px solid #FFF;
 .presentation{
   font-size: 9px;
   text-align: center;
+}
+
+.makeGreat{
+  background-color: grey;
+	padding:100px;
+  margin:auto;
+}
+
+.fond{
+  content:"";
+  background-color: rgb(192,192,192);
+	position: absolute;
+  width: auto;
+  height: auto;
+  left: auto;
+  margin-top: auto;
+}
+
+.fondBlanc{
+  content:"";
+  background-color: rgb(255,255,255);
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.description{
+  background-color: rgb(255,255,255);
+}
+
+.btn-send{
+  background-color: rgb(153,0,0);
+  color:white;
+}
+
+.footer{
+  color: white;
+  padding:auto;
+  margin:auto;
+  background-color: rgb(38,43,47);
 }
