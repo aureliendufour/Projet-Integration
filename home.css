@@ -31,6 +31,11 @@
   margin-right: 50px;
 }
 
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 .logo {
   width:200px;
   height:50px;
@@ -122,6 +127,6 @@ border-left: 10px solid #FFF;
 }
 
 .btn-send{
-  background-color: rgb(153,0,0);
+  background-color:#CB6363;
   color:white;
 }

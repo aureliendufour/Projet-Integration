@@ -3,24 +3,6 @@
     border-color: transparent;
 }
 
-.navbar-default .top-bar{
-    border-bottom: 1px solid grey;
-}
-
-.navbar-default .top-bar ul {
-  padding: 0px;
-  margin: 0px;
-  border-left: 1px solid grey;
-}
-
-.navbar-default .top-bar  ul li {
-  display: inline-block;
-  padding: 10px 15px;
-  margin: 0px;
-  font-size: 17px;
-  border-right: 1px solid grey;
-}
-
 .navbar-default .navbar-right li{
   display: inline-block;
   padding: 10px 15px;
@@ -31,20 +13,15 @@
   margin-right: 50px;
 }
 
-.logo {
-  width:200px;
-  height:50px;
-}
-
-.slider {
-  max-width: 100%;
-	height: auto;
-  margin:auto;
-}
 
 .saut{
   margin-top: 26px;
   padding-bottom: 26px;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 blockquote{
@@ -100,6 +77,14 @@ border-left: 10px solid #FFF;
   text-align: center;
 }
 
+.carre{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
 .makeGreat{
   background-color: grey;
   padding-top: 25px;
@@ -122,6 +107,5 @@ border-left: 10px solid #FFF;
 }
 
 .btn-send{
-  background-color: rgb(153,0,0);
   color:white;
 }
