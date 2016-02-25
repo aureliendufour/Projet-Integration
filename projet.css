@@ -1,0 +1,127 @@
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .top-bar{
+    border-bottom: 1px solid grey;
+}
+
+.navbar-default .top-bar ul {
+  padding: 0px;
+  margin: 0px;
+  border-left: 1px solid grey;
+}
+
+.navbar-default .top-bar  ul li {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 0px;
+  font-size: 17px;
+  border-right: 1px solid grey;
+}
+
+.navbar-default .navbar-right li{
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.navbar-default .navbar-left li{
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.logo {
+  width:200px;
+  height:50px;
+}
+
+.slider {
+  max-width: 100%;
+	height: auto;
+  margin:auto;
+}
+
+.saut{
+  margin-top: 26px;
+  padding-bottom: 26px;
+}
+
+blockquote{
+  border:0px;
+}
+
+q {
+  quotes: "“" "”";
+}
+q:before {
+    content: open-quote;
+    font-family: "fontello";
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+q:after {
+    content: none;
+}
+
+.commentaire{
+  background-color: rgb(255,255,255);
+}
+
+.triangle-before:before{
+content:'';
+display: block;
+position: absolute;
+top:20px;
+left:103px;
+width:0px;
+height:0px;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+border-right: 10px solid #FFF;
+}
+
+.triangle-after:after{
+content:'';
+display: block;
+position: absolute;
+top:20px;
+right:103px;
+width:0px;
+height:0px;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+border-left: 10px solid #FFF;
+}
+
+.presentation{
+  font-size: 9px;
+  text-align: center;
+}
+
+.makeGreat{
+  background-color: grey;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.fond{
+  background-color: rgb(243,243,243);
+  padding-top: 25px;
+}
+
+.fondBlanc{
+  background-color: rgb(255,255,250);
+  padding-top: 25px;
+}
+
+.footer{
+  background-color: rgb(38,43,47);
+  color: white;
+}
+
+.btn-send{
+  background-color: rgb(153,0,0);
+  color:white;
+}
