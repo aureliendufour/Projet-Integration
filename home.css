@@ -44,6 +44,7 @@
 
 .saut{
   margin-top: 26px;
+  padding-bottom: 26px;
 }
 
 blockquote{
@@ -101,38 +102,26 @@ border-left: 10px solid #FFF;
 
 .makeGreat{
   background-color: grey;
-	padding:100px;
-  margin:auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .fond{
   background-color: rgb(243,243,243);
-	position: absolute;
-  margin-top: 450px;
-  width: auto;
-  height: auto;
-  left: auto;
+  padding-top: 25px;
 }
 
 .fondBlanc{
-  content:"";
-  background-color: rgb(0,0,0);
-  position: absolute;
-  margin-top: 800px;
-  width: auto;
-  height: auto;
-  left: auto;
+  background-color: rgb(255,255,250);
+  padding-top: 25px;
+}
+
+.footer{
+  background-color: rgb(38,43,47);
+  color: white;
 }
 
 .btn-send{
   background-color: rgb(153,0,0);
   color:white;
-}
-
-.footer{
-  color: white;
-  padding:auto;
-  margin:auto;
-  background-color: rgb(38,43,47);
-  max-width: 100%;
 }
