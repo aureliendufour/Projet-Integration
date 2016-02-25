@@ -24,6 +24,10 @@
   margin-left: 0px;
 }
 
+:first-child.media{
+  margin-top: 10px;
+}
+
 blockquote{
   border:0px;
 }
@@ -106,6 +110,20 @@ border-left: 10px solid #FFF;
   color: white;
 }
 
-.btn-send{
+.btn-blue{
   color:white;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.btn-white{
+  color:#337ab7;
+  background-color: white;
+  border-color: #337ab7;
+}
+
+.btn-black{
+  color:white;
+  background-color: #384345;
+  border-color: #384845;
 }

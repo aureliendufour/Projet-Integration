@@ -36,6 +36,10 @@
   margin-left: 0px;
 }
 
+:first-child.media{
+  margin-top: 10px;
+}
+
 .logo {
   width:200px;
   height:50px;
@@ -126,7 +130,20 @@ border-left: 10px solid #FFF;
   color: white;
 }
 
-.btn-send{
-  background-color:#CB6363;
+.btn-blue{
   color:white;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.btn-white{
+  color:#337ab7;
+  background-color: white;
+  border-color: #337ab7;
+}
+
+.btn-black{
+  color:white;
+  background-color: #384345;
+  border-color: #384845;
 }
