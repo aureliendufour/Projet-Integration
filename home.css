@@ -31,12 +31,16 @@
   margin-right: 50px;
 }
 
-.media-right{
+:first-child.media{
+  margin-top: 10px;
+}
+
+.footer .media-right{
   padding-right: 20px;
 }
 
-:first-child.media{
-  margin-top: 10px;
+.pad-right{
+  padding-right: 20px;
 }
 
 ul li a{
@@ -50,7 +54,6 @@ ul li a{
 
 .ligne{
   border-bottom: 3px solid rgb(230,230,230);
-
 }
 
 .colone{
@@ -72,6 +75,11 @@ ul li a{
 .saut{
   margin-top: 26px;
   padding-bottom: 26px;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 blockquote{
@@ -114,7 +122,7 @@ content:'';
 display: block;
 position: absolute;
 top:20px;
-right:123px;
+right:103px;
 width:0px;
 height:0px;
 border-top: 10px solid transparent;

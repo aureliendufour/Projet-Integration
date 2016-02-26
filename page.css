@@ -28,6 +28,14 @@
   margin-top: 10px;
 }
 
+.footer .media-right{
+  padding-right: 20px;
+}
+
+.pad-right{
+  padding-right: 20px;
+}
+
 blockquote{
   border:0px;
 }
@@ -89,10 +97,11 @@ border-left: 10px solid #FFF;
   margin-bottom: 20px;
 }
 
-.makeGreat{
-  background-color: grey;
-  padding-top: 25px;
-  padding-bottom: 25px;
+.makeSomething{
+  background-image: url("images/makeSomething.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 300px;
 }
 
 .fond{
