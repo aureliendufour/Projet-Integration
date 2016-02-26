@@ -17,9 +17,13 @@
   margin-top:15px;
 }
 
-.navbar .text{
-  background-color:grey;
+
+.fondFooter{
+  background-color: rgb(38,43,47);
   color:white;
   text-align: left;
   text-align: justify;
+  padding-top:30px;
+  padding-left: 30px;
+  padding-bottom: 25px;
 }
