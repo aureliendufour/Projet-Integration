@@ -11,8 +11,10 @@
 .navbar-default .navbar-left li{
   display: inline-block;
   margin-right: 50px;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 25px;
 }
-
 
 .saut{
   margin-top: 26px;
