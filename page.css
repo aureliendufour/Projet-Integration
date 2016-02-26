@@ -105,10 +105,15 @@ border-left: 10px solid #FFF;
   padding-top: 25px;
 }
 
+.fondFooter{
+  background-color: rgb(38,40,47);
+}
+
 .footer{
   background-color: rgb(38,43,47);
   color: white;
 }
+
 
 .btn-blue{
   color:white;

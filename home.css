@@ -31,13 +31,25 @@
   margin-right: 50px;
 }
 
-.row {
-  margin-right: 0px;
-  margin-left: 0px;
+.media-right{
+  padding-right: 20px;
 }
 
 :first-child.media{
   margin-top: 10px;
+}
+
+ul li a{
+   color:black;
+}
+
+.ligne{
+  border-bottom: 3px solid rgb(230,230,230);
+
+}
+
+.colone{
+  border-right: 3px solid rgb(230,230,230);
 }
 
 .logo {
@@ -46,9 +58,10 @@
 }
 
 .slider {
-  max-width: 100%;
-	height: auto;
+  width: 100%;
+  height: 100%;
   margin:auto;
+  padding: auto;
 }
 
 .saut{
@@ -96,7 +109,7 @@ content:'';
 display: block;
 position: absolute;
 top:20px;
-right:103px;
+right:123px;
 width:0px;
 height:0px;
 border-top: 10px solid transparent;
@@ -109,10 +122,11 @@ border-left: 10px solid #FFF;
   text-align: center;
 }
 
-.makeGreat{
-  background-color: grey;
-  padding-top: 25px;
-  padding-bottom: 25px;
+.makeSomething{
+  background-image: url("images/makeSomething.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 300px;
 }
 
 .fond{
@@ -123,6 +137,10 @@ border-left: 10px solid #FFF;
 .fondBlanc{
   background-color: rgb(255,255,250);
   padding-top: 25px;
+}
+
+.fondFooter{
+  background-color: rgb(38,40,47);
 }
 
 .footer{
@@ -136,6 +154,12 @@ border-left: 10px solid #FFF;
   border-color: #337ab7;
 }
 
+.btn-red{
+  color:white;
+  background-color: #e8554e;
+  border-color: #e8554e;
+}
+
 .btn-white{
   color:#337ab7;
   background-color: white;
@@ -144,6 +168,6 @@ border-left: 10px solid #FFF;
 
 .btn-black{
   color:white;
-  background-color: #384345;
+  background-color: #384045;
   border-color: #384845;
 }
