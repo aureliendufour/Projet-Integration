@@ -43,6 +43,11 @@ ul li a{
    color:black;
 }
 
+.navbar-right li a{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .ligne{
   border-bottom: 3px solid rgb(230,230,230);
 
